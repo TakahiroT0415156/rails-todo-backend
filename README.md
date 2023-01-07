@@ -6,11 +6,11 @@ https://github.com/TakahiroT0415156/todo-app-frontend
 
 # Usage
 
-DEMO の実行方法など、"hoge"の基本的な使い方を説明する
+リポジトリをクローンする。
 
 ```terminal:ターミナル
-git clone https://github.com/TakahiroT0415156/todo-app-frontend.git
-cd todo-app-frontend
+git clone https://github.com/TakahiroT0415156/todo-app-backend.git
+cd todo-app-backend
 rails s
 ```
 
