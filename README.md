@@ -1,24 +1,22 @@
-# README
+# Todo アプリのバックエンド
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+todo アプリをフロントエンドとバックエンドを分けて作成したものです。
+↓ フロントエンドはこちら ↓
+https://github.com/TakahiroT0415156/todo-app-frontend
 
-Things you may want to cover:
+# Usage
 
-* Ruby version
+DEMO の実行方法など、"hoge"の基本的な使い方を説明する
 
-* System dependencies
+```terminal:ターミナル
+git clone https://github.com/TakahiroT0415156/todo-app-frontend.git
+cd todo-app-frontend
+rails s
+```
 
-* Configuration
+http://localhost:3001/
 
-* Database creation
+# Note
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+rails のサーバーは 3001 番で立てています。
+3000 番にアクセスしないように気をつけてください。
