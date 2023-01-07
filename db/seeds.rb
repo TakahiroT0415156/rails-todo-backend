@@ -6,10 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-30.times do |i|
-  Post.create(
-    title: "Todo#{i + 1}",
-    body: "Todo#{i + 1}をします",
-    completed: false
-  )
-end
+# 5.times do |i|
+#   User.create(
+#     email: "abc#{i + 1}@gmail.com",
+#     password: "#{i + 1}#{i + 1}#{i + 1}",
+#     password_confirmation: "#{i + 1}#{i + 1}#{i + 1}",
+#   )
+# end
